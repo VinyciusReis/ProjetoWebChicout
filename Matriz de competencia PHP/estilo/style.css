@@ -1,0 +1,69 @@
+div {
+    height: 350px;
+    width:  250px;
+    border: 5px solid white;
+    border-radius: 25px;
+    text-align: center;
+  
+
+}
+body {
+    background-color : #F36344;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 25px white;
+    align-content: center;
+}
+h1{
+    color: white;
+}
+#formula{
+    border: 10px;
+    color: white;
+}
+#btnS{
+    
+   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #ffffff;
+        padding: 10px 16px;
+        background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#31cc6f),
+            color-stop(0.50, #31cc6f),
+            color-stop(0.50, #31cc6f),
+            color-stop(0.65, #31cc6f),
+            to(#31cc6f));
+        background: linear-gradient(
+            top,
+            #31cc6f 0%,
+            #31cc6f 50%,
+            #31cc6f 50%,
+            #31cc6f 65%,
+            #31cc6f);
+        border-radius: 14px;
+        border: 0px solid #000000;
+        box-shadow:
+            0px 1px 5px rgba(000,000,000,0.5),
+            inset 0px 0px 5px rgba(161,142,016,0.6);
+        text-shadow:
+            0px -1px 3px rgba(255,255,255,0.8),
+            0px 1px 0px rgba(255,255,255,0.3);
+    }
+    #btnS:hover {
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+        background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+        background-color:#dfdfdf ;
+        
+        
+    }
+
+    
+    
+    .th{
+        border: 1 solid white;
+        border-radius: 25px;
+        text-align: center;
+    }
